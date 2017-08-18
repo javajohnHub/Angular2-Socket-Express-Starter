@@ -13,7 +13,8 @@ import { HomeComponent } from './components/home/home.component';
 import { NoContentComponent } from './components/no-content/no-content';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PingComponent } from './components/ping/ping.component';
-
+import {EditorDirective} from "./components/editor/editor.directive";
+import { EditorComponent } from './components/editor/editor.component';
 import {CollapseModule } from 'ngx-bootstrap';
 @NgModule({
   declarations: [
@@ -21,7 +22,9 @@ import {CollapseModule } from 'ngx-bootstrap';
     HomeComponent,
     NoContentComponent,
     NavbarComponent,
-    PingComponent
+    PingComponent,
+    EditorDirective,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
